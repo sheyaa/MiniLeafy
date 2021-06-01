@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.navbar{
+    display: flex; /* moves image and list next to each other */
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right; /* moves the text (home, product,...) to the right */
+}
+nav ul{ /* for the unordered list */
+    display: inline-block; /*moves bullet points to the right */
+    list-style-type: none; /* removes the bullet points */
+}
+nav ul li{
+    display:inline-block; /*displays titles (home, product,...) horizontally */
+    margin-right: 20px; /*gives them space between each other */
+}
+a{ /* links in navigation bar */
+    text-decoration: none; /* removes line under text */
+    color: #1C4D19;
+}
+p{
+    color: #1C4D19;
+}
+
+.container{
+    max-width:1300px; /* will not work more than that */
+    margin: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.row{
+    margin: 25px;
+    padding: 25px;
+    display: flex; /* displays photo and title vertically */
+    align-items: center; /* center from the height's midpoint */
+    flex-wrap: wrap;
+    justify-content: space-around; /* gives space between the two */
+}
+.col-2{
+    flex-basis: 50%; /* both items use 50% of the space */
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 200%;
+    transform: translateX(-50px)
+    margin: 0;
+    padding: 0 50px 0 0; /* 50 top and bottom. 0 left and right */
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display:inline-block;
+    background: #1C4D19; /* color of button */
+    color: #fff; /* color of text inside the button */
+    padding: 8px 30px; /* top and bottom. left and right */
+    margin: 30px 0;
+    border-radius: 30px; /* makes button round */
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #fff;
+    color: #1C4D19;
+}
+.header{ /*header background */
+    background: radial-gradient(#fff, #E8EEE8);
+}
+.header .row{
+    margin-top: 20px;
+}
+.categories{
+    margin: 70px 0;
+}
+.logo img{
+    border-radius: 10%;
+}
+col-3{
+    flex-basis: 30%; /* columns will ocupy 30% of space */
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080 px;
+    margin: auto;
+    padding-left:30px;
+    padding-right: 30px;
+}
+.col-4{
+    flex-basis: 25%; /* need 4 columns */
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s; /* how long it will take to move up*/
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto 80 px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{ /* line under text */
+    content: '';
+    background: #1C4D19;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{  /* changing the font of the letters under the pictures */
+    font-size: 14px;
+}
+.rating .fa{ /* changing the color of the stars */
+    color: #1C4D19;
+}
+.col-4:hover{
+    transform: translateY(-5px) /* move 5px up in the Y axis */
+}
+
+/*---------------- offer ------------------ */
+#offer{
+    background: radial-gradient(#fff, #E8EEE8);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .offer-img{
+    padding: 25px;
+}
+small{
+    color: #555;
+}
+.testimonial{
+    padding-top: 100px;
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial .col-3 img{
+    width: 150px;
+    margin-top: 20px;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #1C4D19;
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777
+}

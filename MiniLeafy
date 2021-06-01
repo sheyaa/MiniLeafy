@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset= "UTF-8">
+    <title>MiniLeafy | Phone and Airpod Cases</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <!--Copied link from google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--Copied link from Font Awesome 4 CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css">
+</head>
+
+<body>
+
+<div class="header">
+<div class="container">
+    <div class="navbar"> <!--Top of the page-->
+        <div class="logo">
+            <img src= "https://i.etsystatic.com/isla/c514cf/47386930/isla_500x500.47386930_r0zvndfk.jpg?version=0" alt="minileafy logo" width= "75px">
+        </div>
+        <nav> <!--Navigation bar-->
+            <ul> <!--links-->
+                <li><a href="">Home</a></li> 
+                <li><a href="">Product</a></li> 
+                <li><a href="">About</a></li> 
+                <li><a href="">Contact</a></li> 
+                <li><a href="">Account</a></li>           
+            </ul>
+        </nav>
+        <img src="cart3.png" alt="cart icon" width="30px" height="30px">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Hello Minies!</h1>
+            <p>Give your phone a cute and protective case.</p>
+            <a href="" class="btn">Explore Now &#8594;</a> <!--Button with arrow-->
+        </div>
+        <div class="col-2">
+            <img src="Cherry.png" alt="Cherry Case" width= "700px">
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!--------Photos-------->
+<div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <img src="selena.jpg" alt="Selena " width="400px">
+            </div>
+            <div class="col-3">
+                <img src="wandavision.jpg" alt="wandavision" width="400px">
+            </div>
+            <div class="col-3">
+                <img src="glee.jpg" alt="Glee" width="400px">
+            </div>    
+        </div>
+    </div>
+</div>
+
+<!--------featured Products-------->
+
+<div class="small-container">
+    
+    <h2 class="title">Featured Products</h2>
+        <div class="row">
+
+            <!--------image 1---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/130094/2999855215/il_1588xN.2999855215_f12t.jpg" alt="Selena Singing" width="200px">
+                <h4>Selena Q.</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+
+            <!--------image 2---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/8e40bc/2999834687/il_1588xN.2999834687_duxt.jpg" alt="bff" width="50px">
+                <h4>BFF</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$27.99</p>
+            </div>
+
+            <!--------image 3---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/ff2baa/3044505391/il_794xN.3044505391_j902.jpg" alt="Power Puff" width="100px">
+                <h4>Power Puff Girls</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+
+            <!--------image 4---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/ca743f/3012749156/il_1588xN.3012749156_jhje.jpg" alt="Airpods" width="100px">
+                <h4>Airpod</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$12.50</p>
+            </div>
+    
+
+    <!--------Latest Products-------->    
+    </div>
+        <h2 class="title">Latest Products</h2>
+
+        <div class="row">
+
+            <!--------image 1---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/33c7ef/3054098313/il_794xN.3054098313_9qch.jpg" alt="Legally Blonde" width="50px">
+                <h4>Legally Blonde</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+
+            <!--------image 2---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/0bf35b/3092513967/il_794xN.3092513967_qu4l.jpg" alt="Mean Girls" width="100px">
+                <h4>Mean Girls</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+
+            <!--------image 3---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/dc7fb8/2996773198/il_794xN.2996773198_bjnl.jpg" alt="PowerPuff Girls" width="100px">
+                <h4>PowerPuff Girls</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$12.50</p>
+            </div>
+
+            <!--------image 4---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/06cc08/2996814490/il_794xN.2996814490_4efh.jpg" alt="AATC" width="200px">
+                <h4>Alvin and the Chipmunks</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+
+            <!--------image 5---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/f456d5/2952163160/il_794xN.2952163160_r3n8.jpg" alt="Bad Bunny" width="200px">
+                <h4>Bad Bunny</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+            <!--------image 6---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/738068/3004570831/il_1588xN.3004570831_l0su.jpg" alt="WandaVision" width="50px">
+                <h4>WandaVision</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$17.00</p>
+            </div>
+
+            <!--------image 7---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/f8bff9/2952147518/il_1588xN.2952147518_hkor.jpg" alt="Selena Grammy" width="100px">
+                <h4>Selena Q. Grammy</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div>
+
+            <!--------image 8---------->
+            <div class="col-4">
+                <img src="https://i.etsystatic.com/25669211/r/il/5164a7/2999856133/il_794xN.2999856133_tr1q.jpg" alt="Glee" width="100px">
+                <h4>Glee</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$15.00</p>
+            </div> 
+        </div>
+</div>
+
+<!--------offer---------->
+<div class="offer">
+    <div id="offer" class="small-container">
+        <div class="row">
+
+            <!--------image---------->
+            <div class="col-2"> 
+                <img src="BadBuunyWhite.png" alt="Bad Bunny White" class="offer-img" width= "700px">
+            </div>
+
+            <!--------text---------->
+            <div class="col-2"> 
+                <p>Now Available in White!</p>
+                <h1>Bad Bunny New Album</h1>
+                <small>Very protective case for your phone.<br> Avaliable for all iPhones.</small><br>
+                <a href="" class="btn"> Buy Now &#8594; </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            
+            <!---------testimonial 1 ---------->
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>OMG!!! I’m telling you now that it is so cute <br>and it’s a good case I drop my phone all the<br> time and need good cases and This is it!!!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div><br>
+                <img src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png" alt="Belen" >
+                <h3>Belen</h3>
+            </div>
+
+            <!---------testimonial 2 ---------->
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>I literally love this case so much! It feels <br>very protective and fits my phone very well.<br> It’s also really cute!</p>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div><br>
+                <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png" alt="Kylie" >
+                <h3>Kylie</h3>
+            </div>
+
+            <!---------testimonial 3 ---------->
+            <div class="col-3">
+                <i class="fa fa-quote-left"></i>
+                <p>Seller was great! Awesome follow up! Case is<br> good quality, sturdy!</p><br>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div><br>
+                <img src="https://eslteacherginny.com/wp-content/uploads/2019/12/fem-avtr.png" alt="Connie" >
+                <h3>Connie</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
